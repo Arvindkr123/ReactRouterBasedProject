@@ -7,12 +7,8 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import Home from "./components/Home/Home.jsx";
 import Layout from "./Layout/Layout.jsx";
-import About from "./components/About/About.jsx";
-import Contact from "./components/Contact/Contact.jsx";
-import User from "./components/User/User";
-import Github, { githubInfoLoader } from "./components/Github/Github";
+import { About, Contact, Github, Home, User, githubInfoLoader } from "./components";
 
 // const router = createBrowserRouter([
 //   {
